@@ -14,3 +14,10 @@ In CovidSym, the risk assessment is carried out automatically based on the regis
 
 To create the MDS system, a public database (source: kaggle) was used, which contains information on 127 cases and whose result is a risk assessment at 3 levels.
 The CovidSym system is based on a web interface and has access differentiated for Doctors, Administrators, Researchers (data analysts) and for the Patient. The Patient has full access to all their data. The Doctor has access to the entire information about its patients and can record the patient consultation by producing a diagnosis (risk assessment). The researcher has access to all data except the name (and any other identifier that exists, e.g. address, citizen card, etc.). Patients must only enter their administrative data, with their clinical record being subsequently completed by the doctor. Administrators are able to create/disable users tokens
+
+## Contents
+### CodeSym
+Includes files developed for the system. Languages employed: php, html, css, javascript.
+
+### ImagesSym
+Includes scrennshots of the final web system
